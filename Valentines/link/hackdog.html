@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Will You Be My Valentine?</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      color: #df1919;
+      font-size: 4em;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    p {
+      color: #d62b2b;
+      font-size: 1.4em;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+      max-width: 500px;
+      text-align: center;
+    }
+   
+    button {
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1em;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    .button {
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1em;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ff4b4b;
+    }
+    .corner-image {
+      position: absolute;
+      width: 500px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Positioning for each corner */
+    .top-right {
+      top: 10px;
+      right: 10px;
+    }
+
+    .top-left {
+      top: 10px;
+      left: 10px;
+      width: 350px;
+      
+    }
+
+    .bottom-right {
+      bottom: 10px;
+      right: 10px;
+      width: 300px;
+    }
+
+    .bottom-left {
+      bottom: 10px;
+      left: 10px;
+      width: 200px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Will You Be My Valentine? 💕</h1>
+    <p>Be my special person this Valentine's Day!</p>
+    <img src="images/gaa.png" alt="Top Right" class="corner-image top-right">
+    <img src="images/cutie.jpg" alt="Top Left" class="corner-image top-left">
+    <img src="images/val.jpg" alt="Bottom Right" class="corner-image bottom-right">
+    <img src="images/ta.png" alt="Bottom Left" class="corner-image bottom-left">
+    <p>Let's make beautiful kupal memories and cherish our time together.</p>
+    <a href="yes.html" class="button">Yes bb!! 💘</a>
+    <button onclick="alert('Bawal BB Dapat yun yess lang')">Ayaw ko </button>
+  </div>
+</body>
+</html>
